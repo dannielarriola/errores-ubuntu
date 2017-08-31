@@ -51,3 +51,17 @@ Solucion
 gpg --keyserver keyserver.ubuntu.com --recv 6856E1DB1AC82609
 gpg --export --armor 6856E1DB1AC82609 | sudo apt-key add -
 ```
+
+#
+
+Error
+-----
+
+```bash
+W: Possible missing firmware /lib/firmware/i915/kbl_dmc_ver1_01.bin
+```
+
+Solucion
+--------
+
+- Descargar driver desde [aqui](https://01.org/linuxgraphics/downloads/firmware)
